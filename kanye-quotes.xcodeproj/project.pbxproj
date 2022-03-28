@@ -17,6 +17,7 @@
 		082C873227F16CCF009B0A4A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C873127F16CCF009B0A4A /* TabBarViewController.swift */; };
 		082C873527F16E55009B0A4A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C873427F16E55009B0A4A /* Quote.swift */; };
 		082C873827F16E7E009B0A4A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C873727F16E7E009B0A4A /* NetworkManager.swift */; };
+		082C873C27F17450009B0A4A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C873B27F17450009B0A4A /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		082C873127F16CCF009B0A4A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		082C873427F16E55009B0A4A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		082C873727F16E7E009B0A4A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		082C873B27F17450009B0A4A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		082C871827F16C9F009B0A4A /* kanye-quotes */ = {
 			isa = PBXGroup;
 			children = (
+				082C873A27F1742A009B0A4A /* Views */,
 				082C873927F16E83009B0A4A /* Managers */,
 				082C873627F16E59009B0A4A /* Models */,
 				082C873327F16E45009B0A4A /* ViewControllers */,
@@ -101,6 +104,14 @@
 				082C873727F16E7E009B0A4A /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		082C873A27F1742A009B0A4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				082C873B27F17450009B0A4A /* FavoriteView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082C873C27F17450009B0A4A /* FavoriteView.swift in Sources */,
 				082C872E27F16CB3009B0A4A /* QuoteViewController.swift in Sources */,
 				082C871A27F16C9F009B0A4A /* AppDelegate.swift in Sources */,
 				082C873027F16CBB009B0A4A /* FavoritesViewController.swift in Sources */,
